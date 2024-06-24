@@ -1,0 +1,46 @@
+@import "../variables/Variables.scss";
+
+.topnavcontainer a {
+    color: rgb(212, 212, 212) !important;
+    font-size: small;
+}
+
+.topnavcontainer {
+    // background-image: url('../../public/assets/nav-background-img-lr.jpg');
+    // background-position: 1% 67%;
+    background: rgb(41,39,43);
+    // background: linear-gradient(45deg, rgba(41,39,43,1) 5%, #0f3979 65%, #12428a 100%);
+    padding: 0.5rem;
+}
+
+.dropdown-menu {
+    background-color: #29272b !important;
+}
+
+.dropdown-item:hover {
+    background-color: #555555 !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.topnavbrand{
+    display: flex;
+    flex-direction: row;
+    color: rgb(212, 212, 212) ;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif !important;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.topnavlogo{
+    height: 1.5rem;
+    width: 6rem;
+}
+
+

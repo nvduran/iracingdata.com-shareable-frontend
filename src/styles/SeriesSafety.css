@@ -1,0 +1,65 @@
+.ss_main_div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.safety-time-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #dddddd;
+  background-color: #353336;
+  border: rgba(165, 165, 165, 0.3803921569) 1px solid;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  border-radius: 0.2rem;
+  padding: 0.2rem 1rem;
+}
+
+.toggle-button-safety {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  width: 60%;
+  border-radius: 0.1rem;
+  background-color: #423f44;
+  border: solid 1px #727073;
+  color: #dddddd;
+}
+
+.min-ss-ent {
+  width: 4rem;
+  padding-left: 14px;
+  font-size: 0.8rem;
+  background-color: #29272b;
+  font-weight: light;
+  border: none;
+  color: #f1c40f;
+  border-bottom: #dddddd 1px solid;
+  margin-left: 6px;
+}
+
+.ss_title_min {
+  font-size: 0.8rem;
+  font-weight: light;
+  color: #dddddd;
+}
+.ss_entr-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.6rem;
+}
+
+.ss-disclaimer-text-div {
+  margin-top: 2rem;
+  font-size: small;
+  color: #a5a5a5;
+}
+@media screen and (max-width: 800px) {
+  .ss-disclaimer-text-div {
+    font-size: x-small;
+  }
+}/*# sourceMappingURL=SeriesSafety.css.map */

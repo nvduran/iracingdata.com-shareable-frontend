@@ -1,0 +1,64 @@
+.incpc-cat-button,
+.incpc-cat-button-le,
+.incpc-cat-button-re {
+    display: inline-block;
+    padding: .6rem 1.6rem .8rem 1.6rem;
+    background: linear-gradient(to right, #154fa7 20%, #12428a);
+    // background: linear-gradient(-45deg, #5e3169, #2f3585, #1d427a, #5e3169);
+    // background-size: 400% 400%;
+    // animation: gradient 15s ease infinite;
+    // height: 100vh;
+    width: auto;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all 0.1s ease-in-out;
+      color: #f1c40f;
+    }
+
+  &:active {
+      transform: scale(0.95);
+      transition: all 0.1s ease-in-out;
+    }
+
+    @media screen and (max-width: 800px) {
+        border-radius: 0px;
+        width: 1%;
+        height: 3.2rem;
+        font-size: small;
+
+        h1 {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.incpc-cat-button-le {
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.incpc-cat-button-re {
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.data-type-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

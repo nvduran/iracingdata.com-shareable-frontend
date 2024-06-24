@@ -1,0 +1,27 @@
+.PrivacyPolicy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PrivacyPolicy h1 {
+  color: #dddddd;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.PrivacyPolicy h2 {
+  color: #dddddd;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-bottom: #dddddd 1px solid;
+}
+.PrivacyPolicy p {
+  color: #dddddd;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .PrivacyPolicy p {
+    width: 90%;
+  }
+}/*# sourceMappingURL=PrivacyPolicy.css.map */

@@ -1,0 +1,26 @@
+.ContactMe {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #cfcfcf;
+
+    h1{
+        color: #cfcfcf;
+        font-size: 1.2rem;
+        font-weight: 400;
+        border-bottom: #cfcfcf 1px solid;
+    }
+
+    h2 {
+        font-size: 1.0rem;
+        color: #cfcfcf;
+    }
+
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 2.5rem;
+        max-width: 600px;
+    }
+}

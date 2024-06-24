@@ -1,0 +1,38 @@
+.topnavcontainer a {
+  color: rgb(212, 212, 212) !important;
+  font-size: small;
+}
+
+.topnavcontainer {
+  background: rgb(41, 39, 43);
+  padding: 0.5rem;
+}
+
+.dropdown-menu {
+  background-color: #29272b !important;
+}
+
+.dropdown-item:hover {
+  background-color: #555555 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.topnavbrand {
+  display: flex;
+  flex-direction: row;
+  color: rgb(212, 212, 212);
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif !important;
+}
+.topnavbrand:hover {
+  cursor: pointer;
+}
+
+.topnavlogo {
+  height: 1.5rem;
+  width: 6rem;
+}/*# sourceMappingURL=TopNav.css.map */

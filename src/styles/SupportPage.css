@@ -1,0 +1,58 @@
+.support-page {
+  background-color: #29272b;
+  font-family: Arial, sans-serif;
+  color: #cfcfcf;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.support-page h2 {
+  font-size: 2rem;
+  color: #f1c40f;
+  margin-bottom: 1rem;
+  border-bottom: #f1c40f 1px solid;
+  padding-bottom: 0.5rem;
+}
+.support-page p {
+  font-size: large;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+.support-page .special-note-account {
+  font-size: 1rem;
+  color: #cfcfcf;
+  margin-bottom: 1rem;
+}
+.support-page .patreon-section {
+  background: linear-gradient(to right, #3d3d3d 20%, #313131);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 20px 2px #2a282c;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.support-page .patreon-section .ad-free-highlight {
+  font-weight: bold;
+  color: #cfcfcf;
+  text-decoration: underline;
+}
+.support-page .patreon-section .patreon-button {
+  display: inline-block;
+  background-color: #29272b;
+  color: #f1c40f;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%;
+}
+.support-page .patreon-section .patreon-button:hover {
+  background-color: #f1c40f;
+  color: #29272b;
+}/*# sourceMappingURL=SupportPage.css.map */

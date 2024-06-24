@@ -1,0 +1,117 @@
+.loading-text-ir-per-club {
+  color: #cfcfcf;
+  font-size: 1.2rem;
+  margin-top: 8rem;
+}
+
+.irpc-next-button {
+  display: inline-block;
+  padding: 0.2rem 1rem;
+  background: linear-gradient(to right, #1d427a 20%, #1f3d6b);
+  width: auto;
+  height: auto;
+  color: #dddddd;
+  font-size: 0.7rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  border: none;
+  margin-right: 20rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+.irpc-next-button:hover {
+  transform: scale(1.05);
+  transition: all 0.1s ease-in-out;
+  color: #f1c40f;
+}
+.irpc-next-button:active {
+  transform: scale(0.95);
+  transition: all 0.1s ease-in-out;
+}
+@media screen and (max-width: 800px) {
+  .irpc-next-button {
+    margin-right: 2rem;
+  }
+}
+
+.irpc-prev-button {
+  display: inline-block;
+  padding: 0.2rem 1rem;
+  background: linear-gradient(to right, #1d427a 20%, #1f3d6b);
+  width: auto;
+  height: auto;
+  color: #dddddd;
+  font-size: 0.7rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  border: none;
+  margin-left: 20rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+.irpc-prev-button:hover {
+  transform: scale(1.05);
+  transition: all 0.1s ease-in-out;
+  color: #f1c40f;
+}
+.irpc-prev-button:active {
+  transform: scale(0.95);
+  transition: all 0.1s ease-in-out;
+}
+@media screen and (max-width: 800px) {
+  .irpc-prev-button {
+    margin-left: 2rem;
+  }
+}
+
+.irpc-button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.smol-space-div {
+  height: 1rem;
+}
+
+.smol-bottom-text-irpc {
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0rem;
+  margin-top: 0.2rem;
+  color: #adadad;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  margin-top: 10rem;
+  margin-right: 2rem;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.spinner:after {
+  content: " ";
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #154fa7;
+  border-color: #154fa7 transparent #154fa7 transparent;
+  animation: dual-ring 1.2s linear infinite;
+}
+
+@keyframes dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=IRatingPerClub.css.map */
